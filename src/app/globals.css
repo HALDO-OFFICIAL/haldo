@@ -1,26 +1,51 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fffefd;
+  --foreground: #111111;
+  --point: #01d776;
+  --point-dark: #00b862;
+  --point-light: #e6faf0;
+  --icon: #c3c5c7;
+  --text-default: #b5b5b5;
+  --text-sub: #707070;
+  --border: #e8e8e8;
+  --border-light: #f2f2f2;
+  --kakao: #FEE500;
+  --naver: #03C75A;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-point: var(--point);
+  --color-point-dark: var(--point-dark);
+  --color-point-light: var(--point-light);
+  --color-icon: var(--icon);
+  --color-text-default: var(--text-default);
+  --color-text-sub: var(--text-sub);
+  --color-border: var(--border);
+  --color-border-light: var(--border-light);
+  --color-kakao: var(--kakao);
+  --color-naver: var(--naver);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 하단 네비게이션 공간 확보 */
+main {
+  padding-bottom: 80px;
+}
+
+@media (min-width: 1024px) {
+  main {
+    padding-bottom: 0;
+  }
 }
