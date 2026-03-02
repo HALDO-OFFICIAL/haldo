@@ -8,7 +8,7 @@ export default function LoginPage() {
     <div className="min-h-screen flex flex-col items-center justify-center px-4 -mt-4">
       {/* 로고 */}
       <div className="mb-12 text-center">
-        <Image src="/logo.png" alt="할두" width={160} height={160} className="h-20 w-auto mx-auto mb-2" priority />
+        <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/logo.png`} alt="할두" width={160} height={160} className="h-20 w-auto mx-auto mb-2" priority />
         <p className="text-[14px] text-text-sub">시니어를 위한 커뮤니티</p>
       </div>
 

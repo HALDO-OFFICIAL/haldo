@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <div className="flex items-center gap-4">
-      <Image src="/logo.png" alt="할두" width={80} height={80} className="h-8 w-auto" priority />
+      <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/logo.png`} alt="할두" width={80} height={80} className="h-8 w-auto" priority />
       <div className="flex items-center gap-1 lg:ml-auto">
         <button
           onClick={decrease}
