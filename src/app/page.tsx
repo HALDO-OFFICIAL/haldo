@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="space-y-16 pb-12 text-center">
       {/* 히어로 섹션 */}
-      <section>
+      <section className="mt-8">
         <h1 className="text-[30px] font-medium text-foreground leading-snug">
           인생 후반전,<br />
           나를 위해 살 준비 되셨나요?
