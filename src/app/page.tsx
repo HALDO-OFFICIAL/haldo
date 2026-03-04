@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className="space-y-16 pb-12 text-center">
       {/* 히어로 섹션 */}
-      <section className="mt-8">
-        <h1 className="text-[30px] font-medium text-foreground leading-snug">
+      <section className="mt-10">
+        <h1 className="text-[30px] font-medium text-foreground leading-snug mb-10">
           인생 후반전,<br />
           나를 위해 살 준비 되셨나요?
         </h1>
@@ -26,7 +26,7 @@ export default function Home() {
             그런데 취미 활동은 가장 단조롭고(TV 시청, 50%),<br />
             전 세대 중 제일 외롭다(19%)고 조사되었습니다.
           </p>
-          <p className="mt-4 text-foreground">
+          <p className="mt-4 text-foreground italic">
             &lsquo;재밌는 건 다 젊은 애들 거던데..&rsquo;<br />
             &lsquo;내가 괜히 갔다가 민폐 될까봐..&rsquo;
           </p>
@@ -46,8 +46,8 @@ export default function Home() {
 
       {/* 할두 클럽 */}
       <section>
-        <p className="text-[30px] font-medium text-foreground mb-1">내 세계를 확장하는 모임</p>
-        <h2 className="text-[30px] font-medium text-foreground">할두 클럽</h2>
+        <p className="text-[30px] font-medium text-foreground mb-1 mt-10">내 세계를 확장하는 모임</p>
+        <h2 className="text-[30px] font-medium text-foreground mb-10">할두 클럽</h2>
         <div className="mt-6 space-y-3">
           <Image
             src={`${basePath}/img02.jpg`}
@@ -65,7 +65,7 @@ export default function Home() {
           />
         </div>
         <div className="mt-10 text-foreground leading-relaxed">
-          <p>
+          <p className="italic">
             글쓰기 클럽, 재테크 클럽, 패들 보드 클럽, 글램핑 클럽, 북클럽
           </p>
           <p className="mt-4">
@@ -83,8 +83,8 @@ export default function Home() {
 
       {/* 할두 마켓 */}
       <section>
-        <p className="text-[30px] font-medium text-foreground mb-1">나를 대접하는 시간</p>
-        <h2 className="text-[30px] font-medium text-foreground">할두 마켓</h2>
+        <p className="text-[30px] font-medium text-foreground mb-1 mt-10">나를 대접하는 시간</p>
+        <h2 className="text-[30px] font-medium text-foreground mb-10">할두 마켓</h2>
         <div className="mt-6 text-foreground leading-relaxed">
           <p>
             공장에서 찍어낸 물건보다<br />
@@ -124,8 +124,8 @@ export default function Home() {
 
       {/* 할두 조카들 */}
       <section>
-        <p className="text-[30px] font-medium text-foreground mb-1">고군분투하는</p>
-        <h2 className="text-[30px] font-medium text-foreground">할두 조카들</h2>
+        <p className="text-[30px] font-medium text-foreground mb-1 mt-10">고군분투하는</p>
+        <h2 className="text-[30px] font-medium text-foreground mb-10">할두 조카들</h2>
         <div className="mt-6 rounded-2xl overflow-hidden">
           <Image
             src={`${basePath}/img04.jpg`}
@@ -189,6 +189,7 @@ export default function Home() {
             <span className="ml-auto text-icon">›</span>
           </a>
         </div>
+        <p className="mt-8 text-[12px] text-foreground">&copy; 2026. Haldo. All rights reserved.</p>
       </section>
     </div>
   );

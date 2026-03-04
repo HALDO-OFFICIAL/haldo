@@ -39,13 +39,3 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* 하단 네비게이션 공간 확보 */
-main {
-  padding-bottom: 80px;
-}
-
-@media (min-width: 1024px) {
-  main {
-    padding-bottom: 0;
-  }
-}

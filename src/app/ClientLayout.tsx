@@ -21,7 +21,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
       <main className="max-w-4xl mx-auto px-4 py-4">
         {children}
       </main>
-      {!isLoginPage && <BottomNav />}
+      {/* <BottomNav /> */}
     </FontSizeProvider>
   );
 }
