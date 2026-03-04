@@ -46,8 +46,7 @@ export default function Home() {
 
       {/* 할두 클럽 */}
       <section>
-        <p className="text-[30px] font-medium text-foreground mb-1 mt-10">내 세계를 확장하는 모임</p>
-        <h2 className="text-[30px] font-medium text-foreground mb-10">할두 클럽</h2>
+        <h2 className="text-[30px] font-medium text-foreground mt-10 mb-10">내 세계를 확장하는 모임<br />할두 클럽</h2>
         <div className="mt-6 space-y-3">
           <Image
             src={`${basePath}/img02.jpg`}
@@ -83,8 +82,7 @@ export default function Home() {
 
       {/* 할두 마켓 */}
       <section>
-        <p className="text-[30px] font-medium text-foreground mb-1 mt-10">나를 대접하는 시간</p>
-        <h2 className="text-[30px] font-medium text-foreground mb-10">할두 마켓</h2>
+        <h2 className="text-[30px] font-medium text-foreground mt-10 mb-10">나를 대접하는 시간<br />할두 마켓</h2>
         <div className="mt-6 text-foreground leading-relaxed">
           <p>
             공장에서 찍어낸 물건보다<br />
@@ -124,8 +122,7 @@ export default function Home() {
 
       {/* 할두 조카들 */}
       <section>
-        <p className="text-[30px] font-medium text-foreground mb-1 mt-10">고군분투하는</p>
-        <h2 className="text-[30px] font-medium text-foreground mb-10">할두 조카들</h2>
+        <h2 className="text-[30px] font-medium text-foreground mt-10 mb-10">고군분투하는<br />할두 조카들</h2>
         <div className="mt-6 rounded-2xl overflow-hidden">
           <Image
             src={`${basePath}/img04.jpg`}
