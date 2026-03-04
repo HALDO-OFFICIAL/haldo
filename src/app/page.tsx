@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export default function Home() {
   return (
@@ -13,7 +12,7 @@ export default function Home() {
         </h1>
         <div className="mt-6 rounded-2xl overflow-hidden">
           <Image
-            src={`${basePath}/img01.jpg`}
+            src="/img01.jpg"
             alt="할두 소개"
             width={800}
             height={500}
@@ -52,14 +51,14 @@ export default function Home() {
         </h2>
         <div className="mt-6 space-y-3">
           <Image
-            src={`${basePath}/img02.jpg`}
+            src="/img02.jpg"
             alt="할두 클럽 활동"
             width={800}
             height={500}
             className="w-full h-auto object-cover rounded-2xl"
           />
           <Image
-            src={`${basePath}/img03.jpg`}
+            src="/img03.jpg"
             alt="할두 클럽 모임"
             width={800}
             height={300}
@@ -134,7 +133,7 @@ export default function Home() {
         </h2>
         <div className="mt-6 rounded-2xl overflow-hidden">
           <Image
-            src={`${basePath}/img04.jpg`}
+            src="/img04.jpg"
             alt="할두 조카들"
             width={800}
             height={500}

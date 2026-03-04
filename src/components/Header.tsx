@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <Link href="/">
-      <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/logo.png`} alt="할두" width={80} height={80} className="h-[100px] w-auto" priority />
+      <Image src="/logo.png" alt="할두" width={80} height={80} className="h-[100px] w-auto" priority />
     </Link>
   );
 }
