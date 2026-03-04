@@ -4,7 +4,7 @@ import ClientLayout from "./ClientLayout";
 
 export const metadata: Metadata = {
   title: "할두 - 할머니가 되어서도 두근두근!",
-  description: "쉽고 편리한 시니어 맞춤 커뮤니티 & 마켓",
+  description: "",
 };
 
 export default function RootLayout({

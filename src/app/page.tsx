@@ -67,7 +67,7 @@ export default function Home() {
         </div>
         <div className="mt-10 text-foreground leading-relaxed">
           <p className="italic">
-            글쓰기 클럽, 재테크 클럽, 패들 보드 클럽, 글램핑 클럽, 북클럽
+            글쓰기 클럽, 재테크 클럽, 패들 보드 클럽, 글램핑 클럽
           </p>
           <p className="mt-4">
             이번 달엔 어떤 도전을 하고 싶나요?<br />
@@ -113,7 +113,7 @@ export default function Home() {
             <p className="text-[14px] text-foreground mt-1">누적 클럽</p>
           </div>
           <div className="bg-point-light rounded-2xl py-6 px-3">
-            <p className="text-[24px] font-medium text-foreground">2,000건+</p>
+            <p className="text-[24px] font-medium text-foreground">2천건+</p>
             <p className="text-[14px] text-foreground mt-1">참여 수</p>
           </div>
           <div className="bg-point-light rounded-2xl py-6 px-3">
@@ -143,12 +143,12 @@ export default function Home() {
         <div className="mt-10 text-foreground leading-relaxed">
           <p>
             할두 조카는 할두 운영진의 애칭이에요.<br />
-            조카들은 프롭테크, 핀테크 등의 스타트업 경험을 바탕으로<br />
+            조카들은 프롭테크, 핀테크 스타트업에서 쌓은 경험으로<br />
             매일 눈물 나는 성공과 실패를 반복하며,<br />
-            하지만 어느 때보다 큰 성취감을 느끼며 할두를 키우고 있어요.
+            어느 때보다 큰 성취감을 느끼며 할두를 키우고 있어요.
           </p>
           <p className="mt-4">
-            감사하게도 벌써 1만 5천 명의 이모들이 함께 해주시고 계신데,<br />
+            벌써 1만 5천 명의 이모들이 함께 해주시고 계신데,<br />
             길 가다 마주치는 5060 여성 10명 중 1명은<br />
             우리 할두 멤버면 좋겠다는 바람이에요.
           </p>
